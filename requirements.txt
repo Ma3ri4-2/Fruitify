@@ -6,4 +6,4 @@ Pillow
 altair
 langchain
 langchain_ollama
-
+ultralytics
