@@ -5,7 +5,6 @@ import numpy as np
 import random
 import datetime
 from PIL import Image
-from ultralytics import YOLO
 
 # Page config
 st.set_page_config(
