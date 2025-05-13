@@ -34,12 +34,12 @@ def generate_ripeness_prediction():
         "Days to Spoil": days_to_spoil
     })
 
-st.title("📄 Auto-generated Quality Reports")
+st.title("📄 Quality Reports")
 df = generate_fruit_data()
 st.write("### 📊 Report Summary by Fruit and Quality Level")
 st.write(df.groupby("Fruit")["Quality"].value_counts().unstack().fillna(0))
 
-st.write("### 🧾 Sample Record Table")
+st.write("### 🧾 Record Table")
 st.dataframe(df.head(20))
 
 if st.button("🧠 Generate Summary using LLM"):
