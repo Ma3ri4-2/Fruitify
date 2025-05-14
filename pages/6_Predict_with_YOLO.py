@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from ultralytics import YOLO
+# from ultralytics import YOLO
 
 st.set_page_config(page_title="🍎 Predict Fruit Quality", layout="centered")
 st.title("🧠 AI Fruit Quality Prediction")
