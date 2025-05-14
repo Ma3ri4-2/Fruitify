@@ -53,11 +53,6 @@ def goal_card(img_path, title, desc):
         st.markdown(desc)
     st.markdown("---")
 
-goal_card(
-    "./Images/TheGlobalGoals_Icons_Color_Goal_2.png",
-    "Goal 2: Zero Hunger",
-    "Our system reduces food waste by detecting spoilage early, ensuring more fruit reaches those who need it most."
-)
 
 goal_card(
     "./Images/TheGlobalGoals_Icons_Color_Goal_9.png",
